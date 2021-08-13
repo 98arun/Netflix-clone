@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Assets/Css/normalized.css" />
+    <link rel="stylesheet" href="./Assets/Css/style.css" />
+    <link rel="shortcut icon" href="./Assets/Images/nficon2016.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <title>Netflix</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+    <a href="home-page.html">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 111 30">
+          <path
+            d="M105.062 14.28 111 30c-1.75-.25-3.499-.563-5.28-.845l-3.345-8.686-3.437 7.969c-1.687-.282-3.344-.376-5.031-.595l6.031-13.75L94.468 0h5.063l3.062 7.874L105.875 0h5.124l-5.937 14.28zM90.47 0h-4.594v27.25c1.5.094 3.062.156 4.594.343V0zm-8.563 26.937c-4.187-.281-8.375-.53-12.656-.625V0h4.687v21.875c2.688.062 5.375.28 7.969.405v4.657zM64.25 10.657v4.687h-6.406V26H53.22V0h13.125v4.687h-8.5v5.97h6.406zm-18.906-5.97V26.25c-1.563 0-3.156 0-4.688.062V4.687h-4.844V0h14.406v4.687h-4.874zM30.75 15.593c-2.062 0-4.5 0-6.25.095v6.968c2.75-.188 5.5-.406 8.281-.5v4.5l-12.968 1.032V0H32.78v4.687H24.5V11c1.813 0 4.594-.094 6.25-.094v4.688zM4.78 12.968v16.375A104.74 104.74 0 0 0 0 30V0h4.469l6.093 17.032V0h4.688v28.062c-1.656.282-3.344.376-5.125.625L4.78 12.968z" />
+        </svg>
+    </a>
+      
+        <!-- <img src="./Assets/Images/Netflix_Logo_PMS.png" alt="Netflix" /> -->
+      </div>
+      <div class="signin-form">
+        <div class="first">
+          <h1 class="heading">Sign In</h1>
+          <form action="#">
+            <input
+              type="text"
+              class="inputbox"
+              name="name"
+              id="name"
+              required
+            />
+            <label for="name" class="labelbox">Email or phone number</label>
+            <input
+              type="password"
+              class="passbox"
+              name="password"
+              id="pass"
+              required
+            />
+            <label for="password" class="labelpassbox">Password</label>
+            <button type="submit" class="btn">Sign In</button>
+          </form>
+          <div class="second">
+            <input type="checkbox" class="check" id="checks" />
+            <label class="remember" for="">Remember me</label>
+            <a href="#" class="help">Need help?</a>
+          </div>
+          <div class="third">
+            <img src="./Assets/Images/FB-f-Logo__blue_57.png" alt="Netflix" />
+            <span>Login with Facebook</span>
+          </div>
+          <div class="fourth">
+            <span>New to Netflix?</span>
+            <a href="home-page.html" target="_self">Sign up now</a>
+          </div>
+          <div class="fifth">
+            <p class="para">
+              This page is protected by Google reCAPTCHA to ensure you're not a
+              bot.&nbsp;<span class="learn" id="more">Learn more</span>
+            </p>
+            <p class="para" id="hide">
+              The information collected by Google reCAPTCHA is subject to the
+              Google <span class="learn">Privacy Policy</span> and
+              <span class="learn">Terms of Service</span> , and is used for
+              providing, maintaining, and improving the reCAPTCHA service and
+              for general security purposes (it is not used for personalised
+              advertising by Google).
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="inner-footer">
+          <p class="text-footer">
+            Questions? Call <a class="tel" href="#">000-800-040-1843</a>
+          </p>
+          <ul class="list">
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Help Centre</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Cookie Preferences</a></li>
+            <li><a href="#">Corporate Information</a></li>
+          </ul>
+          <div class="dropdown">
+            <i class="fas fa-globe icon"></i>
+            <select name="lang" class="lang" id="eng">
+              <option value="English">English</option>
+              <option value="Hindi">हिन्दी</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./Assets/Js/index.js"></script>
+  </body>
+</html>

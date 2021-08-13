@@ -1,0 +1,283 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.5) 0,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url("../Images/IN-en-20210719-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+}
+
+.row {
+  width: 100%;
+  height: 90px;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.5) 0,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+.row svg {
+  height: 45px;
+  width: 167px;
+  margin-left: 3%;
+  margin-top: 25px;
+  fill: #e50914;
+}
+
+.signin-form {
+  width: 320px;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.75);
+  margin: auto;
+  padding: 60px 70px 40px;
+  position: relative;
+  top: 30px;
+}
+.heading {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.inputbox,
+.passbox {
+  position: relative;
+  padding: 5px 10px 0;
+  width: 300px;
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #333;
+  margin-bottom: 15px;
+}
+.inputbox:focus,
+.passbox:focus {
+  outline: none;
+}
+.labelbox {
+  color: grey;
+  position: absolute;
+  left: 80px;
+  top: 168px;
+  font-size: 16px;
+}
+
+.inputbox:focus ~ .labelbox,
+.inputbox:valid ~ .labelbox {
+  font-size: 12px;
+  left: 80px;
+  top: 158px;
+}
+.labelpassbox {
+  color: grey;
+  position: absolute;
+  left: 80px;
+  top: 238px;
+  font-size: 16px;
+}
+.passbox:focus ~ .labelpassbox,
+.passbox:valid ~ .labelpassbox {
+  font-size: 12px;
+  left: 80px;
+  top: 228px;
+}
+.btn {
+  background-color: #e50914;
+  color: #fff;
+  font-size: 16px;
+  position: relative;
+  padding: 5px 10px 0;
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+  margin: 24px 0 12px;
+  cursor: pointer;
+}
+.second {
+  display: flex;
+  justify-content: space-between;
+}
+.check {
+  background-color: #b3b3b3;
+  font-size: 13px;
+}
+.remember {
+  color: #b3b3b3;
+  font-size: 13px;
+  position: absolute;
+  left: 90px;
+}
+.help {
+  color: #b3b3b3;
+  text-decoration: none;
+  font-size: 13px;
+}
+.help:hover {
+  color: #b3b3b3;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.third {
+  display: flex;
+  margin-top: 50px;
+}
+.third img {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.third span {
+  color: #b3b3b3;
+  cursor: pointer;
+  font-size: 14px;
+}
+.fourth {
+  margin-top: 20px;
+}
+.fourth span {
+  color: #737373;
+  font-size: 16px;
+}
+.fourth a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+.fourth a:hover {
+  text-decoration: underline;
+}
+.fifth {
+  margin-top: 11px;
+}
+.para {
+  font-size: 13px;
+  color: #8c8c8c;
+  text-align: justify;
+}
+.learn {
+  color: #0071eb;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0;
+}
+.learn:hover {
+  text-decoration: underline;
+}
+#hide {
+  visibility: hidden;
+}
+.footer {
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 100%;
+  height: auto;
+  margin-top: 120px;
+}
+
+.inner-footer {
+  padding: 30px 0;
+  margin: 0 25%;
+}
+.text-footer,
+a {
+  font-size: 16px;
+  color: #757575;
+  text-decoration: none;
+  margin: 0 0 30px;
+}
+.tel:hover {
+  text-decoration: underline;
+}
+ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: #757575;
+  padding-left: 0;
+}
+ul li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+ul li a {
+  text-decoration: none;
+  font-size: 13px;
+}
+ul li a:hover {
+  text-decoration: underline;
+}
+.icon {
+  position: relative;
+  z-index: 1;
+  color: #757575;
+  top: 2px;
+  left: 8px;
+}
+.lang {
+  padding: 15px 30px;
+  font-size: 13px;
+  color: #757575;
+  background: #000;
+  position: relative;
+  right: 20px;
+}
+
+@media only screen and (max-width: 740px) {
+  .signin-form {
+    width: initial;
+    height: auto;
+    padding: 5px 30px;
+  }
+  .inputbox,
+  .passbox {
+    padding: 0;
+    width: 100%;
+  }
+  .labelbox {
+    top: 110px;
+    left: 40px;
+  }
+  .labelpassbox {
+    top: 175px;
+    left: 40px;
+  }
+  .inputbox:focus ~ .labelbox,
+  .inputbox:valid ~ .labelbox {
+    top: 100px;
+    left: 40px;
+  }
+  .passbox:focus ~ .labelpassbox,
+  .passbox:valid ~ .labelpassbox {
+    top: 165px;
+    left: 40px;
+  }
+  .remember {
+    left: 50px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .row svg {
+    height: 20px;
+    width: 75px;
+    margin-top: 15px;
+  }
+
+  .text-footer,
+  a {
+    font-size: 10px;
+  }
+  ul {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  ul li a {
+    font-size: 7px;
+  }
+}
