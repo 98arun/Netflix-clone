@@ -1,5 +1,5 @@
 # Netflix-clone
-This is a clone Netflix web application written in HTML, CSS, and JavaScript, with no framework used.
+This is a clone Netflix web application written in HTML, CSS, and JavaScript, with no framework used.<br>
 In this attachment, I've written down all of the requirements for both the sign-in and the home page.
 ## Demo Link:-(https://98arun.github.io/Netflix-clone/)
 ### Flow chart Attachment:-
