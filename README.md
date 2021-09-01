@@ -1,7 +1,7 @@
 # Netflix-clone
 This is a clone Netflix web application written in HTML, CSS, and JavaScript, with no framework used.<br>
 In this attachment, I've written down all of the requirements for both the sign-in and the home page.
-## Demo Link:-(https://98arun.github.io/Netflix-clone/)
+## [Click here to see Netflix demo](https://98arun.github.io/Netflix-clone/)
 ### Desktop mode:-
 ![desktop view (sign-in page)](https://user-images.githubusercontent.com/82587103/130214107-b8baf185-2b51-4743-8ead-2d44be56f34b.png)
 ![desktop view (home page)](https://user-images.githubusercontent.com/82587103/130214126-eae32b98-5dda-415b-b471-411ac632a9a0.png)
