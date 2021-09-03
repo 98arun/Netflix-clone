@@ -4,7 +4,7 @@ body {
 .row {
   display: flex;
   justify-content: space-between;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 .row svg {
   margin-left: 40%;
@@ -86,6 +86,7 @@ body {
   left: 10px;
   top: 38px;
   font-size: 16px;
+  transition: font 0.4s ease, top 0.4s ease, transform 0.4s ease;
 }
 .inputbox:focus ~ .labelbox,
 .inputbox:valid ~ .labelbox {
@@ -295,6 +296,7 @@ ul {
 .accordian-item.active .hidden-content {
   padding: 0.8em;
   max-height: 300px;
+  transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);
 }
 .accordian-item.active .svgg {
   transform: rotate(0deg);
